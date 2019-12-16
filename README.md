@@ -1,4 +1,4 @@
-### LastEarthQuakesSwiftUI
+# LastEarthQuakesSwiftUI
 
 The aim of this project is to show how to create a SwiftUI app that has network communication.
 
