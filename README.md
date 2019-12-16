@@ -9,9 +9,11 @@ In the first tab you can see the latest earthquakes all over the world.
 In the second tab you can see the earthquakes at your location.(Max Radius = 500km.)
 
 ## Screenshots
+<div>
 <img src="./ReadmeResources/1.png" width="30%" >
 <img src="./ReadmeResources/2.png" width="30%" >
 <img src="./ReadmeResources/3.png" width="30%" >
 <img src="./ReadmeResources/4.png" width="30%" >
 <img src="./ReadmeResources/5.png" width="30%" >
 <img src="./ReadmeResources/6.png" width="30%" >
+</div>
