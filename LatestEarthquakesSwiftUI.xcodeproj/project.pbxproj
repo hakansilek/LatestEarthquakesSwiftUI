@@ -26,6 +26,7 @@
 		C4B1124623A81DA400D4D239 /* LocalizedAllEarthQuakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1124123A81DA300D4D239 /* LocalizedAllEarthQuakes.swift */; };
 		C4B1124723A81DA400D4D239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1124223A81DA300D4D239 /* ContentView.swift */; };
 		C4B1124823A81DA400D4D239 /* EarthQuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1124323A81DA300D4D239 /* EarthQuakeDetail.swift */; };
+		C4B1124B23A969DC00D4D239 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1124A23A969DC00D4D239 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		C4B1124123A81DA300D4D239 /* LocalizedAllEarthQuakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedAllEarthQuakes.swift; sourceTree = "<group>"; };
 		C4B1124223A81DA300D4D239 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4B1124323A81DA300D4D239 /* EarthQuakeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthQuakeDetail.swift; sourceTree = "<group>"; };
+		C4B1124A23A969DC00D4D239 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		C4B1121223A81BFE00D4D239 /* LastEarthQuakesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C4B1124923A969CD00D4D239 /* Extension */,
 				C4B1123E23A81DA300D4D239 /* Scenes */,
 				C4B1123323A81C4D00D4D239 /* Managers */,
 				C4B1123023A81C4D00D4D239 /* UIViewRepresentable */,
@@ -144,6 +147,14 @@
 				C4B1124323A81DA300D4D239 /* EarthQuakeDetail.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C4B1124923A969CD00D4D239 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1124A23A969DC00D4D239 /* Extensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B1123823A81C4D00D4D239 /* NetworkManager.swift in Sources */,
+				C4B1124B23A969DC00D4D239 /* Extensions.swift in Sources */,
 				C4B1123623A81C4D00D4D239 /* MapView.swift in Sources */,
 				C4B1124723A81DA400D4D239 /* ContentView.swift in Sources */,
 				C4B1124523A81DA400D4D239 /* EarthQuakesList.swift in Sources */,

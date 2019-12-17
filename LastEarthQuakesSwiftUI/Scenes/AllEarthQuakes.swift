@@ -13,7 +13,9 @@ import Combine
 struct AllEarthQuakes: View {
     let queryString:String
     init() {
-        queryString = "starttime=2019-12-01&endtime=2019-12-31"
+        let startOfDay = Date().startOfMonth()
+        let endOfDay = Date().endOfMonth()
+        queryString = "starttime=\(startOfDay)&endtime=\(endOfDay)"
     }
     var body: some View {
         NavigationView{
